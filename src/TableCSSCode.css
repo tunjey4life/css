@@ -1,0 +1,85 @@
+
+.CSSTableGenerator {
+    width: 99%;
+    height: 25%;
+    margin: 25px 10px 25px 10px;
+    padding:5px;
+     border: 1px solid #bfcde3;
+    /*    border-collapse:collapse;*/
+}
+
+
+.CSSTableGenerator table {
+    border: 1px solid #bfcde3;
+    // border-collapse: collapse;
+    width: 99%;
+    margin: 0px 0 10px 0;
+}
+.CSSTableGenerator th{
+    font-size: 0.93em;
+    text-align:center;
+    background-color:#daeff8;
+    color: #071c3d;
+    height: 30px;
+    padding: 1px; 
+    font-weight: bold;
+    //border-top: 1px;
+}
+
+
+.CSSTableGenerator td {
+    font-family: 'Open Sans', sans-serif;
+    //font-family: Verdana, Geneva, Arial, Helvetica, sans-serif;
+    font-size: 10px;
+    color: #071c3d;
+    //font-weight: bold;
+    margin: 2px;
+    padding: 10px;
+    text-align: left;
+    vertical-align: middle;
+    background-repeat: no-repeat;
+    list-style-type: none;
+    border: none;
+    border-left: none;
+    border-right: none;
+
+}
+/*.CSSTableGenerator thead .CSSTableGenerator {
+    background-color: #bbb;
+}*/
+.CSSTableGenerator tr.odd {
+
+    background-color:#fcfcfa;
+}
+.CSSTableGenerator tr.even {
+    background-color:#F8F9F9;
+    //background-color:#e8f7ff;
+}
+
+.pagelinks 
+{
+    color: #ff4500;
+    margin: 10px 0px 10px 10px;
+    font-size: 10px;
+}
+
+.exportlinks 
+{
+    color: #ff4500;
+    margin: 20px 10px 20px 20px;
+    font-size: 11px;
+}
+
+.export 
+{
+    margin: 15px 15px 15px 15px;
+    font-size: 11px;
+
+}
+
+div.dataTables_wrapper {
+    width: 99%;
+    margin: 0 auto; 
+    float: left;
+}
+

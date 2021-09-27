@@ -1,0 +1,57 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Mar 23, 2015, 8:19:14 PM
+    Author     : Tunji
+*/
+
+.formtable {
+/*    border: 1px dotted #666;*/
+    border: 1px solid #bfcde3;
+    width: 98%;
+    height: 95%;
+    margin: 10px 10px 10px 10px;
+    padding-left: 10px;
+}
+
+
+.formtable td {
+    font-size: 0.58em;
+    font-family: Verdana, Geneva, Arial, Helvetica, sans-serif;
+    font-size: 10px;
+}
+.formtable th {
+    font-size: 0.79em;
+    border-top: 2px solid #ddd;
+    border-right: 2px solid #ddd;
+    border-left: 2px solid #666;
+    border-bottom: 1px solid #666;
+    text-align: justify;
+    background-color: #003366;
+    color: white;
+}
+.formtable table {
+    border: 1px solid #bfcde3;
+    width: 80%;
+    margin: 10px 0 10px 0;
+}
+.formtable th,.formtable td {
+    margin: 5px;
+    padding: 6px;
+    text-align: left;
+    vertical-align: middle;
+    background-repeat: no-repeat;
+    list-style-type: none;
+}
+.formtable thead .formtable {
+    background-color: #bbb;
+}
+.formtable tr.odd {
+    background-color: #fff;
+}
+.formtable tr.even {
+    background-color: #ddd;
+}
